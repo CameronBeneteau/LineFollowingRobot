@@ -13,3 +13,5 @@ Materials:
 - Servos
 - QTR Sensors
 - Chassis
+
+Grade: 100%
