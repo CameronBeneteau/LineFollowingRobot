@@ -1,4 +1,4 @@
-# LineFollowingRobot
+# Line Following Robot
 
 <img src="Robot_Pic.jpg" style="width: 50%"/>
 
