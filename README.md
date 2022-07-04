@@ -2,8 +2,6 @@
 
 <img src="Robot_Pic.jpg" style="width: 50%"/>
 
-[<img src="Robot_Pic.jpg" width="50%">](Robot_Vid.mov)
-
 Computer Engineering Project
 - Design and Build a Robot that follows a black line
 
