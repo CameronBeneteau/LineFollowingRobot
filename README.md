@@ -2,8 +2,6 @@
 
 <img src="Robot_Pic.jpg" style="width: 50%"/>
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
-
 Computer Engineering Project
 - Design and Build a Robot that follows a black line
 
