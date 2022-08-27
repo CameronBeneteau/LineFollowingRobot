@@ -1,6 +1,6 @@
 # Line Following Robot
 
-<img src="Robot_Pic.jpg" style="width: 50%"/>
+<img src="/assets/Robot_Pic.jpg" style="width: 50%"/>
 
 Computer Engineering Project
 - Design and Build a Robot that follows a black line
