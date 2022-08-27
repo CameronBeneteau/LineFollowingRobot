@@ -16,7 +16,7 @@ Exploring self-driving with Arduino and C++
 
 ## Project Information
 
-Computer Engineering project to design and build a robot that follows a black line.
+Grade 12 computer engineering project to design and build a robot that follows a black line.
 
 ### Objectives
 - Robot wheels must always stay on opposite sides of the black line
@@ -41,14 +41,21 @@ After each component was thoroughly tested, we proceeded to mount them on the me
 
 ## Software
 ### Arduino_Robot_Code.ino
+Next was to integrate our individual component programs into a final program to be used by the robot. 
+
+One thing we kept in mind during the development of this this final self-driving algorithm was its time-critical aspect. As this is a real-time system, we wanted to make sure decisions were performed quicky and efficiently. The faster our robot can make its movement decisions, the overall better it will be.
+
+Therefore, we avoided any types of algorithms with long runtimes, large space complexities and advanced data structures (also because they weren’t needed for this application). This process mainly came down to adding if/else statements to each components program to decide which movement decision would be made based on the current information being seen through the sensors. 
+
+For example, if our left QTR sensor reading suddenly became very high (between 800 and 1000) we knew this means the robot has just detected the black line and is possibly drifting too far to the right. In this case, our algorithm would speed up the right servo motor, turning the robot left, until both QTR sensors were seeing white (0 to 200) again.
+
+The main challenge of this development process was tuning the parameters to the correct sensing amounts to trigger movements. Occasionally, our QTR sensors would read 100 for a white surface one day, but 300 (outside of our range) on the next. To combat this issue, we recalibrated our sensors and re-tuned our parameters each day we came into class. These ambiguities could have been avoidable with more accurate and sophisticated sensors.
 
 ## Results
 
 On our final day of testing, our robot was able to sucessfully complete all 5 paths for a **grade of 100%**.
 
-It was exteremly cool to see this success from our hard work.
-
-We built our very own Tesla!
+It was exteremly cool to see this success from our hard work - we built our very own Tesla!
 
 ## Next Steps
 Some fun things I would like to build on or explore relating to this project would be:
