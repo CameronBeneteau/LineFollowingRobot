@@ -3,7 +3,8 @@
 Exploring self-driving with Arduino and C++! ([Demo Video](https://youtu.be/Mf58IfUgn2M))
 
 Course: Computer Engineering TEJ4M (Grade 12)  
-Date: April 3rd, 2019
+Date: April 3rd, 2019  
+Grade: 100%
 
 ![Robot Gif](assets/Robot_Gif.gif)
 
