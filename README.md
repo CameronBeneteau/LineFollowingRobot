@@ -30,7 +30,7 @@ Grade 12 computer engineering project to design and build a robot that follows a
 - Metal Chassis
 
 ## Design Process
-Our first step was to test the individual components to understand how they worked and explore the various types and ranges readings we should look for while using them.
+Our first step was to test the individual components to understand how they worked and explore the various types and ranges of readings we should look for while using them.
 
 For example: A QTR sensor measures the reflectiveness of a surface with a value from 0 to 1000 (0 for white (most reflective), and 1000 for black (least reflective).
 Using these measurements, we were able to develop unit test programs using Arduino and C++ for each sensor.
@@ -43,9 +43,9 @@ After each component was thoroughly tested, we proceeded to mount them on the me
 ### Arduino_Robot_Code.ino
 Next was to integrate our individual component programs into a final program to be used by the robot. 
 
-One thing we kept in mind during the development of this this final self-driving algorithm was its time-critical aspect. As this is a real-time system, we wanted to make sure decisions were performed quicky and efficiently. The faster our robot can make its movement decisions, the overall better it will be.
+One thing we kept in mind during the development of this final self-driving algorithm was its time-critical aspect. As this is a real-time system, we wanted to make sure decisions were performed quickly and efficiently. The faster our robot can make its movement decisions, the overall better it will be.
 
-Therefore, we avoided any types of algorithms with long runtimes, large space complexities and advanced data structures (also because they weren’t needed for this application). This process mainly came down to adding if/else statements to each components program to decide which movement decision would be made based on the current information being seen through the sensors. 
+Therefore, we avoided any types of algorithms with long runtimes, large space complexities, and advanced data structures (also because they weren’t needed for this application). This process mainly came down to adding if/else statements to each component's program to decide which movement decision would be made based on the current information being seen through the sensors. 
 
 For example, if our left QTR sensor reading suddenly became very high (between 800 and 1000) we knew this means the robot has just detected the black line and is possibly drifting too far to the right. In this case, our algorithm would speed up the right servo motor, turning the robot left, until both QTR sensors were seeing white (0 to 200) again.
 
@@ -53,13 +53,13 @@ The main challenge of this development process was tuning the parameters to the 
 
 ## Results
 
-On our final day of testing, our robot was able to sucessfully complete all 5 paths for a **grade of 100%**. [Video here!](https://imgur.com/a/wtMLOxQ)
+On our final day of testing, our robot was able to successfully complete all 5 paths for a **grade of 100%**. [Video here!](https://imgur.com/a/wtMLOxQ)
 
-It was exteremly cool to see this success from our hard work - we built our very own Tesla!
+It was extremely cool to see this success from our hard work - we built our very own Tesla!
 
 ## Next Steps
 Some fun things I would like to build on or explore relating to this project would be:
-- Attempting to follow much more jagged, colourful (instead of black/white) and complicated paths
+- Attempting to follow much more jagged, colorful (instead of black/white) and complicated paths
 - Incorporate more sensors to generate higher amounts of data for movement decisions
 - Explore the effects and efficiencies for various positions of each sensor on the chassis
 - Build a more sophisticated self-driving algorithm
