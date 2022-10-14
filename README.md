@@ -1,13 +1,11 @@
 # Line Following Robot
 
-Exploring self-driving with Arduino and C++!
+Exploring self-driving with Arduino and C++! ([Demo Video](https://youtu.be/Mf58IfUgn2M))
 
 Course: Computer Engineering TEJ4M (Grade 12)  
 Date: April 3rd, 2019
 
 ![Robot Gif](assets/Robot_Gif.gif)
-
-<!-- ![Robot Image](assets/Robot_Pic.jpg)  -->
 
 ## Table of Contents
 [1. Project Information](#Project-Information)  
@@ -56,7 +54,7 @@ The main challenge of this development process was tuning the parameters to the 
 
 ## Results
 
-On our final day of testing, our robot was able to successfully complete all 5 paths! [Video here!](https://imgur.com/a/wtMLOxQ)
+On our final day of testing, our robot was able to successfully complete all 5 paths! [Video here](https://youtu.be/Mf58IfUgn2M)!
 
 It was extremely cool to see this success from our hard work - we built our very own Tesla!
 
