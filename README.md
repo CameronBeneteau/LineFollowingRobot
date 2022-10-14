@@ -53,7 +53,7 @@ The main challenge of this development process was tuning the parameters to the 
 
 ## Results
 
-On our final day of testing, our robot was able to sucessfully complete all 5 paths for a **grade of 100%**. [Video here!]([./product/download.html](https://imgur.com/a/wtMLOxQ))
+On our final day of testing, our robot was able to sucessfully complete all 5 paths for a **grade of 100%**. [Video here!](https://imgur.com/a/wtMLOxQ)
 
 It was exteremly cool to see this success from our hard work - we built our very own Tesla!
 
