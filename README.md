@@ -42,7 +42,7 @@ After each component was thoroughly tested, we proceeded to mount them on the me
 ![Robot Image](assets/Robot_Pic.jpg)
 
 ## Software
-### Arduino_Robot_Code.ino
+### `Arduino_Robot_Code.ino`
 Next was to integrate our individual component programs into a final program to be used by the robot. 
 
 One thing we kept in mind during the development of this final self-driving algorithm was its time-critical aspect. As this is a real-time system, we wanted to make sure decisions were performed quickly and efficiently. The faster our robot can make its movement decisions, the overall better it will be.
